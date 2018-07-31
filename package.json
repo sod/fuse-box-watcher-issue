@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "fuse-box-watcher-issue",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node fuse.js",
+    "prod": "node fuse.js production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.111",
+    "@types/node": "^10.5.2",
+    "bootstrap-sass": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "date-fns": "^1.29.0",
+    "font-awesome": "^4.7.0",
+    "fuse-box": "^3.4.0",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.2",
+    "opn": "^5.3.0",
+    "postcss-selector-parser": "^5.0.0-rc.3",
+    "typescript": "^3.0.1",
+    "uglify-es": "^3.3.9",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-template-compiler": "^2.5.16",
+    "vue-template-es2015-compiler": "^1.6.0"
+  }
+}
